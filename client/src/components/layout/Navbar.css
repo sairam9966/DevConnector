@@ -1,0 +1,60 @@
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #042c4f, #8b130d); /* Gradient background */
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+  border-bottom: 4px solid #efefef; /* Add a bottom border for emphasis */
+  border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+}
+
+.navbar h1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+}
+
+/* Style the navigation links */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+ul li {
+  margin-right: 1rem;
+  transition: transform 0.3s;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 25px; /* Rounded buttons */
+/* Red background color */
+/* rgb(195 57 67) */
+background-color:rgb(33, 43, 95);
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul li a:hover {
+  
+  background:  rgb(195 57 67) ;
+  color:white;
+  transform: scale(1.05);
+}
+
+/* Style icons */
+i {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}

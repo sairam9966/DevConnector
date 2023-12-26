@@ -1,0 +1,25 @@
+.profiles{
+  background-color: #093a66;
+  padding: 5%;
+  border-radius: 5px;
+  border:2px solid rgb(244, 242, 240);
+}
+.head{
+  color: #042c4f; 
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(244, 242, 240);
+  padding: 5px;
+}
+.containers{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    /* margin-top: 6rem; */
+    margin-bottom: 3rem;
+
+}
